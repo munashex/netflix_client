@@ -1,0 +1,31 @@
+@media (min-width: 360px) {
+    .movie_trailer_container{
+        background: black; 
+        height: 100vh
+      }
+  .movie_trailer {
+    width: 100%;  
+    z-index: -1;
+  }
+
+.netflix_log{
+    width: 80px;
+    margin-left: 12px;
+}
+
+.top_nav{
+    position: absolute; 
+    top: 0px 
+}
+}
+
+@media(min-width: 800px) {
+  .movie_trailer_container{
+    height: 120vh;
+  }
+}
+.logout{
+ position: absolute; 
+ right: 12px;
+ top: 12px;
+}

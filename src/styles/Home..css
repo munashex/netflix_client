@@ -1,0 +1,100 @@
+.netflix_image{
+    height: 390px;
+    z-index: -1; 
+    margin-top: -100px; 
+    position: absolute;
+}
+
+.nav_top{
+  display: flex; 
+  justify-content: space-between; 
+   margin-top: 30px;
+}
+
+.get_started {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 30px;
+}
+
+
+@media(min-width: 768px) {
+    .unlimited > h1{
+        margin-left: 68px ;
+    }
+    .unlimited > .watch_anywhere{
+        margin-left: 130px;
+    }
+    
+}
+
+@media(min-width: 800px) {
+
+  
+     .netflix_image{
+    height: 100%;
+    width: 100%
+     }
+     .unlimited > h1{
+        margin-left: 240px;
+        margin-top: 90px;  
+        font-size: 50px;
+     }
+     .watch_anywhere {
+        position: absolute; 
+        left: 30%; 
+        margin-top: 80px; 
+        font-size: 18px;
+     }
+    .nested{
+        position: absolute; 
+        left: 27%;
+        font-size: 50px
+    }
+   .btn_start {
+    margin-top: 130px; 
+    width: 200px;
+    margin-left: 10px;
+   }  
+    .sign_btn {
+        position: absolute; 
+        right: 30px
+    }
+    .logo{
+        position: absolute;
+        left: 16px; 
+    }
+    
+}
+
+@media(min-width: 360px){
+
+    .logo {
+        height: 39px
+    }
+    .netflix_image{
+       width: 100%;
+
+    }
+
+    .unlimited {
+        margin: auto; 
+        width: 90%;   
+        margin-left: 13%; 
+        margin-top: 70px; 
+        font-weight: 600;
+    }
+    
+    .watch_anywhere{
+        margin-left: 14px;
+    }
+
+    .nested {
+        margin-left: 10%;
+    }
+
+}
+
+.logo{
+    cursor: pointer
+}

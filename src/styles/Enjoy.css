@@ -1,0 +1,48 @@
+.enjoy_container {
+    background: black;
+    margin-top: 50px;
+    height: 100%
+}
+
+
+.tv_stand{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    padding-top: 30px; 
+     padding-bottom: 12px;
+}
+
+@media(min-width: 800px) {
+    .tv_stand {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-evenly;
+    }
+    .enjoy_tv {
+        margin-top: -65px;
+    }
+    .netflix_video {
+        position: absolute; 
+        margin-left: 255px; 
+        top: 393px
+    }
+    
+}
+
+
+ 
+@media (min-width: 360px) {
+    .netflix_video{
+        position: absolute; 
+        margin-top: 56px;
+        height: 238px;
+        width: 224px;
+    
+        
+    }
+    .tv_stand_image {
+        height: 230px;
+    }
+}
+

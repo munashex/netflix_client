@@ -1,0 +1,33 @@
+.accordin_container {
+background: black; 
+height: 460px
+}
+
+
+
+@media (min-width: 360px) {
+    .accordion{
+        margin: auto;
+        width: 90%;  
+        margin-bottom: 10px;  
+        padding-bottom: 10px;
+    } 
+    .asked_questions{
+        margin: auto;
+        width: 50%
+    }
+}
+
+
+@media(min-width: 800px) {
+    .asked_questions{
+        margin: auto;
+        width: 20%
+    }
+    .accordion{
+        margin: auto;
+        width: 60%;  
+        margin-bottom: 10px;  
+        padding-bottom: 10px;
+    } 
+}

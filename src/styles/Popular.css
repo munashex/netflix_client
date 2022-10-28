@@ -1,0 +1,50 @@
+
+@media(min-width: 360px) {
+    .popular_container {
+        position: absolute;
+        margin-top: 150%;
+
+     } 
+
+     .popular_image{
+        width: 200px; 
+        margin: 12px;
+     }
+
+     .demo{
+        display: flex;
+        width: 100%;
+        position: fixed;
+        overflow-y: scroll; 
+     }
+     .demo::-webkit-scrollbar {
+        display: none;
+    }
+     
+}
+
+@media(min-width: 768px) {
+    .popular_container {
+        position: absolute;
+        margin-top: 230%
+    }
+    .popular_image{
+        width: 300px;
+    }
+}
+
+@media(min-width: 950px) {
+.popular_container {
+margin-top: 380px; 
+}
+
+.popular_image{
+    size: 400px;
+    margin-bottom: 20px;
+}
+.popular {
+    display: none;
+}
+}
+
+
